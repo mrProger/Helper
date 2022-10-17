@@ -1,2 +1,2 @@
 @echo off
-rustc helper.rs -C lto -C panic=abort -C opt-level=s
+rustc helper.rs -o ./windows/helper.exe -C lto -C panic=abort -C opt-level=s
